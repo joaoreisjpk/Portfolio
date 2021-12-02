@@ -8,6 +8,7 @@ interface ProjetoProps {
 export const Container = styled.section`
   width: 100%;
   display: flex;
+  margin-bottom: 5rem;
   flex-direction: column;
   align-items: center;
   gap: 5rem;
@@ -53,10 +54,10 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   &:hover {
     > section {
       > div.text {
-        right: -18rem;
+        right: -19rem;
       }
       > div.overlay {
-        opacity: 0.4;
+        opacity: 0.1;
       }
     }
     > button a {
@@ -95,7 +96,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     > div.text {
       position: absolute;
       top: 3rem;
-      right: -10rem;
+      right: -12rem;
       transition: 0.5s;
       width: fit-content;
       h1 {

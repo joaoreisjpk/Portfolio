@@ -9,8 +9,9 @@ export const Container = styled.section`
   margin-top: 5rem;
 
   > img {
-    width: 40rem;
+    max-width: 30rem;
     flex: 1;
+    padding: 0 2rem 2rem;
   }
 
   > div {
@@ -19,7 +20,7 @@ export const Container = styled.section`
 
   @media (max-width: 1450px) {
     > img {
-      width: 30rem;
+      width: 25rem;
     }
 
     > div {
@@ -29,7 +30,7 @@ export const Container = styled.section`
 
   @media (max-width: 1000px) {
     > img {
-      width: 22rem;
+      width: 20rem;
     }
   }
 

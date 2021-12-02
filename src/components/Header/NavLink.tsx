@@ -9,11 +9,16 @@ interface NavLinkProps {
 }
 
 export default function NavLink({ title, path }: NavLinkProps) {
-  const router = useRouter();
-  const isActive = router.pathname === path;
+  const { pathname } = useRouter();
+  const isActive = () => {
+    if (path === '/') {
+      return pathname === path;
+    }
+    return pathname.includes(path);
+  };
 
   return (
-    <NavLinkContainer isActive={isActive}>
+    <NavLinkContainer isActive={isActive()}>
       <Link href={path}>
         <a href="/">{title}</a>
       </Link>
