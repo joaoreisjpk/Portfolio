@@ -20,24 +20,29 @@ export const Container = styled.div<ContainerProps>`
     transition: 0.5s;
     cursor: pointer;
     overflow: hidden;
+
     &:hover {
       border-color: ${({ theme }) => theme.primary};
       > div.overlay {
         opacity: 0.5;
       }
     }
+
     > section {
       z-index: 2;
+
       h1 {
         color: ${({ theme }) => theme.primary};
         font-size: 1.5rem;
       }
+
       h2 {
         color: ${({ theme }) => theme.secondary};
         font-weight: 300;
         font-size: 1rem;
       }
     }
+
     > div.overlay {
       position: absolute;
       left: 0;
