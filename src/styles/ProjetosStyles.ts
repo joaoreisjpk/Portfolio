@@ -45,7 +45,7 @@ export const ProjetoContainer = styled.div`
     }
 
     button {
-      background: ${({ theme }) => theme.primary};
+      background: ${({ theme }) => darken(0.1, theme.primary)};
       padding: 0.8rem 3rem;
       border-radius: 0.5rem;
       border: none;
@@ -53,14 +53,14 @@ export const ProjetoContainer = styled.div`
       margin-top: 2rem;
 
       &:hover {
-        background: ${({ theme }) => darken(0.05, theme.primary)};
+        background: ${({ theme }) => darken(0.2, theme.primary)};
       }
 
       a {
         color: #fff;
         text-transform: uppercase;
         font-size: 1.5rem;
-        font-weight: 300;
+        font-weight: 700;
       }
     }
 

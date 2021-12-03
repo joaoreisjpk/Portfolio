@@ -13,7 +13,7 @@ export const projetos = [
     title: 'RecipesApp',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Projeto realizado para finalizar o módulo de Front-End da Trybe.',
     link: 'https://github.com/joaoreisjpk/RecipesAPP--React'
   },
   {
@@ -22,7 +22,7 @@ export const projetos = [
     title: 'TrybeLibre',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Projeto realizado para consolidar nossos conhecimentos em React pela Trybe, usando class-components',
     link: 'https://trybe-libre.vercel.app/'
   },
   {
@@ -31,7 +31,7 @@ export const projetos = [
     title: 'Choqueflix',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Site que fiz com 3 amigos para consolidar nossos conhecimentos no módulo de fundamentos da Trybe. Esse projeto foi 100% desenvolvido por nós e também foi ganhador do premio de melhor projeto da turma.',
     link: 'https://choqueflix.vercel.app/'
   },
   {
@@ -40,7 +40,7 @@ export const projetos = [
     title: 'Trivia',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Projeto realizado para consolidar nossos conhecimentos em Redux pela Trybe. Esse projeto foi desenvolvido em grupo, com a ajuda de 3 colegas.',
     link: 'https://trivia-trybe.vercel.app/'
   },
   {
@@ -49,7 +49,7 @@ export const projetos = [
     title: 'Otimização App',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Nesse projeto, aprendi com a RocketSeat, a utilizadade dos hooks useMemo e useCallback, e também da função Memo',
     link: 'https://otimizacao.vercel.app/'
   },
   {
@@ -58,7 +58,7 @@ export const projetos = [
     title: 'Refatorando JS-TS',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Com esse projeto, botei em prática o que aprendi sobre TypeScript, transformando um app inteiramente em JS para TS',
     link: 'https://refatorando-js-ts.vercel.app/'
   },
   {
@@ -67,7 +67,7 @@ export const projetos = [
     title: 'Trybe-Warts',
     type: 'website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, repellat!',
+      'Nesse projeto aprofundei meus conhecimentos em JavaScript na Trybe, aprendendo a utilizar os forms e a lib de CSS, SemanticUI',
     link: 'https://trybewarts.vercel.app/'
   }
 ];
