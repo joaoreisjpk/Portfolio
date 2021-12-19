@@ -5,6 +5,7 @@ import otimizacao from '../images/otimizacao.png';
 import trivia from '../images/trivia.png';
 import refatoracao from '../images/refatoracao.png';
 import TrybeWarts from '../images/TrybeWarts.png';
+import TripAdvisor from '../images/TripAdvisor.png';
 
 export const projetos = [
   {
@@ -42,6 +43,15 @@ export const projetos = [
     description:
       'Projeto realizado para consolidar nossos conhecimentos em Redux pela Trybe. Esse projeto foi desenvolvido em grupo, com a ajuda de 3 colegas.',
     link: 'https://trivia-trybe.vercel.app/'
+  },
+  {
+    slug: 'trip-advisor',
+    thumbnail: TripAdvisor,
+    title: 'Refatorando JS-TS',
+    type: 'website',
+    description:
+      'Nesse site, desenvolvi minhas habilidades de estilização usando a lib ChrakraUI',
+    link: 'https://chrakra-ui-project.vercel.app/'
   },
   {
     slug: 'otimizacao',
